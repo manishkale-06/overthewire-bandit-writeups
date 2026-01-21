@@ -17,5 +17,5 @@ Log in to the Bandit server using SSH and find the password for the next level.
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 ## Commands Executed
-ls
-cat readme
+ls                  (used to list current directory)
+cat readme          (cat concatanets current o/p to terminal of given file)
