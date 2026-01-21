@@ -18,4 +18,4 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 ## Commands Executed
 ls                  (used to see contents of forlder)
-cat ./-             (as '-' might be misread for flag argument in terminal I used ./- as full name of                              directory so cat will look for exact file name )
+cat ./-             (as '-' might be misread for flag argument in terminal I used ./- as full name of  directory so cat will look for exact file name )
