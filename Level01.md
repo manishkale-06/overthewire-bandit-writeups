@@ -17,5 +17,16 @@ The password for the next level is stored in a file called - located in the home
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 ## Commands Executed
-ls                  (used to see contents of forlder)
-cat ./-             (as '-' might be misread for flag argument in terminal I used ./- as full name of  directory so cat will look for exact file name )
+ls  
+cat ./-
+
+```
+____
+
+## Explaination
+
+- ls is used to list all the files and directories present in current directory.
+
+- cat concatinates the given files and stdout but as here only one argument is given it shows its content as standard output.
+
+- './-' is used instead '-' because otherwise it will be misinterpreted as option or flag argument. ./ reprsents current directory so './-' will be treated as full directory name and not be misinterpreted as option or flag.               

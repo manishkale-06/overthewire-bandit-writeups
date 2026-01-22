@@ -25,12 +25,12 @@ ___
 
 ## Explanation
 
-ls lists the files in the home directory.
+- ls lists the files in the home directory.
 
-The filename starts with --, which Linux commands may treat as an option or flag.
+- The filename starts with --, which Linux commands may treat as an option or flag.
 
-Using ./ makes it explicit that the target is a file in the current directory.
+- Using ./ makes it explicit that the target is a file in the current directory.
 
-The filename contains spaces, so each space is escaped using \ to prevent the shell from treating them as separate arguments.
+- The filename contains spaces, so each space is escaped using \ to prevent the shell from treating them as separate arguments.
 
-cat displays the contents of the file, revealing the password for the next level.
+- cat displays the contents of the file, revealing the password for the next level.
