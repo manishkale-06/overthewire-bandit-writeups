@@ -28,7 +28,7 @@ ___
 
 - cd is used to change dirctory and here it is changed to ./inhere.
 
-- ls is used with -l flag gives long including file permissions and other useful information
+- ls is used with -l flag gives long including file permissions and other useful information.
 
 - ls with -a flag list all files along with hidden files here password was in one of these files i.e. ...Hiding-From-You file.
 
