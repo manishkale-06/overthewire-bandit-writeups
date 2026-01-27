@@ -31,4 +31,6 @@ ___
 
 - Here, N-ZA-Mn-za-m → A-MZa-mn-z performs a ROT13 transformation, rotating letters by 13 positions (both uppercase and lowercase).
 
+- The redirection oprator '<' is used to feed data.txt file to translates its contents. 
+
 - This decodes the contents of data.txt and reveals the password.
