@@ -16,12 +16,15 @@ To gain access to the next level, you should use the setuid binary in the homedi
 ssh bandit19@bandit.labs.overthewire.org -p 2220
 
 ## Commands Executed
+ls
 ./bandit20-do cat /etc/bandit_pass/bandit20
 
 ```
 ___
 
 ## Explanation
+
+- ls is used to see dirctory contains.
 
 - As stated in the problem, the home directory contains a setuid binary.
 A setuid binary runs with the privileges of its owner, which allows this program to execute commands as another user.
