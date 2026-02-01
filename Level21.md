@@ -18,7 +18,7 @@ ssh bandit21@bandit.labs.overthewire.org -p 2220
 ## Commands Executed
 cd /etc/cron.d
 ls
-cat cron_bandit22
+cat cronjob_bandit22
 cat /usr/bin/cronjob_bandit22.sh
 cat /tmp/t706lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
