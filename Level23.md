@@ -27,7 +27,7 @@ vim myscript.sh
 
 
 ## myscript.sh
-#!/bin/bash
+\#!/bin/bash
 cat /etc/bandit_pass/bandit24 > /tmp/myfile66
 
 ## Later Commands Executed
