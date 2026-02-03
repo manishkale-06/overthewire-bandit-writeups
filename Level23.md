@@ -27,10 +27,11 @@ vim myscript.sh
 
 
 ## myscript.sh
-\#!/bin/bash
+&#35!/bin/bash
 cat /etc/bandit_pass/bandit24 > /tmp/myfile66
 
 ## Later Commands Executed
+chmod +x myscript.sh
 cat /tmp/myfile66
 ```
 ___
@@ -47,7 +48,7 @@ ___
 
 - Again cat is used to see the script contains. This script is executing all file residing in /var/spool/"$myname"/foo where myname variable is set to output of command whoami which gives the username. After execution all files within this directory are deleted. So it is possible to create a script in this directory and use user name "bandit24" to run it as bandit24.
 
-- To do so using vim a file is created in which contents of cd /var/spool/bandit24/foo is redirected to /tmp/myfile66 which is password of next level. This script will be executed after some time through cron jobs. We can see if it is executed i.e. if it is deleted then it is executed otherwise have to wait a little longer,
+- To do so using vim a file is created in which contents of cd /var/spool/bandit24/foo is redirected to /tmp/myfile66 which is password of next level. After exiting the vim editor chmod is used to make the script executable. This script will be executed after some time through cron jobs. We can see if it is executed i.e. if it is deleted then it is executed otherwise have to wait a little longer.
 
 - Finally, cat is used to read the file that is mentioned in the script /tmp/myfile66 to get the password of next level which is redircted in this directory.
 
