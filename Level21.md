@@ -31,7 +31,7 @@ ___
 
 - ls command is used to see the contents of current directory. Using this file containg clue of password can be identified.
 
-- cat used then to what is indide file cron\_bandit22 which may contain clue to login to next level.
+- cat used then to see what is inside the file cron\_bandit22 which may contain clue to login to next level.
 
 - Inside that file there is a script which runs automatically utilizing cron jobs.
 
