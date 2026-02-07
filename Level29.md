@@ -16,7 +16,7 @@ From your local machine (not the OverTheWire machine!), clone the repository and
 ## Command Used
 ```bash
 cd /tmp
-git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
 cd repo
 git branch -a
 git checkout remotes/origin/dev
