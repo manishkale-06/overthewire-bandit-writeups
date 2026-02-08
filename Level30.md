@@ -9,14 +9,14 @@ From your local machine (not the OverTheWire machine!), clone the repository and
 ## Server Details
 - **Host:** bandit.labs.overthewire.org  
 - **Port:** 2220  
-- **Username:** bandit31
+- **Username:** bandit30
 
 ---
 
 ## Command Used
 ```bash
 cd /tmp
-git clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo
+git clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
 cd repo
 git tag
 git show <tag name>
